@@ -102,7 +102,7 @@ describe('AC4: touching endpoints of an existing booking are allowed', () => {
   });
 });
 
-describe('AC6: booking fixtures are not mutated', () => {
+describe('AC5: booking fixtures are not mutated', () => {
   it('leaves the bookings array unchanged across evaluations', () => {
     const bookings: Range[] = Object.freeze([Object.freeze([600, 660])]) as unknown as Range[];
     const snapshot = JSON.stringify(bookings);
