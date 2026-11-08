@@ -92,7 +92,7 @@ describe('AC4: overlapping an existing booking is rejected', () => {
   });
 });
 
-describe('AC5: touching endpoints of an existing booking are allowed', () => {
+describe('AC4: touching endpoints of an existing booking are allowed', () => {
   it('accepts a slot that starts exactly when a booking ends', () => {
     expect(check(660, 60, { bookings: BOOKINGS })).toMatchObject({ kind: 'available' });
   });
