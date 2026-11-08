@@ -11,4 +11,4 @@ Do not mutate booking fixtures; keep responsive UI feedback.
 ## Verification
 Run existing tests and add focused regression tests.
 Report changed files, rationale and test evidence.
-```[cite: 143]
+
