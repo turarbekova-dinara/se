@@ -31,6 +31,7 @@ import { FilterPanel } from '@/components/FilterPanel';
 import { RoomCard } from '@/components/RoomCard';
 import { StatusBadge } from '@/components/StatusBadge';
 import { Timeline } from '@/components/Timeline';
+import { ExplanationPanel } from '@/components/ExplanationPanel';
 
 const EQUIPMENT_OPTIONS = getEquipmentOptions(ROOMS);
 
