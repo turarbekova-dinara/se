@@ -308,6 +308,15 @@ export default function App() {
           </>
         )}
 
+        {selectedRoom && verdict && (
+          <ExplanationPanel
+            roomLabel={selectedRoom.name}
+            verdict={verdict}
+            start={start}
+            duration={duration}
+          />
+        )}
+
         <footer className="mt-8 text-center text-xs text-slate-400">
           Fictional data for demonstration · Now assumed at {formatTime(now)} ·
           Max booking {MAX_DURATION_MIN} min
